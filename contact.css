@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(245, 237, 230);
+    margin: 0; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    background-color: darkcyan;
+}
+
+a:hover {
+    background-color: rgb(2, 81, 81);
+    border-radius: 10%;
+}
+
+h3 {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.main {
+    border: solid 1px rgb(245, 237, 230);
+    box-shadow: 0 0 10px rgb(33, 19, 2); 
+    border-radius: 5px; 
+    padding: 10px; 
+    justify-content: center;    
+    margin: 5%;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    background: linear-gradient(to bottom right, rgb(62, 63, 74) 20%, rgb(236, 203, 136) 60%);
+    margin: auto;
+    border-radius: 5px; 
+    padding: 10px; 
+}
+
+.foot h3, 
+.foot p {
+    text-align: center;
+    color: rgb(232, 239, 224);
+}
+
+.foot {
+    justify-content: center;
+    background: linear-gradient(to bottom right, rgb(62, 63, 74) 20%, rgb(236, 203, 136) 60%);
+    background-size: cover;
+    border-radius: 5%;
+    padding: 20px; 
+    margin-bottom: auto;
+}
+
+.foot h3 {
+    text-align: center;
+}
+
+p {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(234, 121, 143);
+    text-align: center;
+}
+
+h2 {
+    font-family: "Great Vibes";
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.main h3 {
+    color: rgb(23, 6, 9);;
+    text-align: center;
+    font-family: "Great Vibes";
+}
+
+.main address {
+    text-align: center;
+    color: rgb(234, 121, 143);
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        margin: 2%;
+    }
+    .main p{
+        font-weight: 100;
+        font-size:xx-small;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    h3{
+        font-weight: 100;
+        font-size: small;
+    }
+}
