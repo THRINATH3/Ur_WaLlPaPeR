@@ -1,0 +1,140 @@
+header{
+    display: grid;
+    grid-template-rows: 62px;
+    grid-template-columns: 50% 50%;
+    font-size: medium;
+}
+.options{
+    display: grid;
+    grid-template-rows: 62px;
+    grid-template-columns:18% 16% 20% 25% 20%;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-around;
+}
+header a:hover{
+    background-color: rgba(182, 250, 81, 0.397);
+    padding: 8%;
+    color: #000;
+    border-radius: 10px;
+}
+header a{
+    text-decoration: none;
+    font-family: "Varela Round", sans-serif;
+    color: #ae4b0d;
+    font-weight: 600;
+}
+.name{
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+}
+.main{
+    margin: 5%;
+}
+.main p{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    color: rgb(20, 17, 3);
+}
+h1{
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h3,h2{
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.card{
+    margin-left: 30%; margin-right: 30%;
+}
+footer {
+    margin-top: 50px;
+    color: #1d1919; 
+    padding:rgb(36, 34, 34)px 0; 
+}
+
+footer h5 {
+    color: #0d0101; 
+    font-family:"Marcellus", serif;
+    font-weight: bolder;
+}
+footer a{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer p {
+    margin-bottom: 10px; 
+    font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer ul {
+    padding: 0;
+    list-style: none; }
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #1c0404;
+    text-decoration: none; 
+}
+
+footer ul li a:hover {
+    color: rgb(223, 85, 10);
+    text-decoration: double;
+}
+
+footer hr {
+    border-color: #777;
+}
+@media screen and (max-width: 810px) {
+    header{
+        display: grid;
+        grid-template-rows: 62px;
+        grid-template-columns: 100%;
+        font-size: medium;
+    }
+    .options{
+        display: grid;
+        grid-template-rows: 62px;
+        grid-template-columns:15% 15% 15% 20% 15%;
+        font-size: medium;
+        justify-content: space-evenly;
+    }
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    .card-body img{
+        width: 100px;
+        height: 200px;
+    }
+    .aimg{
+        height: 500px;
+        margin-right: 1%;
+    }
+    .main p{
+        font-weight: 400;
+        font-size:medium;
+    }
+}
+@media screen and (max-width: 500px) {
+    .aimg{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .aimg{
+        height: 300px;
+    }
+}

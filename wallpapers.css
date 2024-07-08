@@ -1,0 +1,120 @@
+header{
+    display: grid;
+    grid-template-rows: 62px;
+    grid-template-columns: 50% 50%;
+    font-size: medium;
+}
+.options{
+    display: grid;
+    grid-template-rows: 62px;
+    grid-template-columns:18% 16% 20% 25% 20%;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-around;
+}
+header a:hover{
+    background-color: rgba(182, 250, 81, 0.397);
+    padding: 8%;
+    color: #000;
+    border-radius: 10px;
+}
+header a{
+    text-decoration: none;
+    font-family: "Varela Round", sans-serif;
+    color: #ae4b0d;
+    font-weight: 600;
+}
+.name{
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+}
+button{
+    border-radius: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #206f06;
+    color: white;
+}
+button:hover{
+    background-color: aliceblue;
+    border-color: aquamarine;
+    color: darkslateblue;
+}
+img:hover{
+    transform: scale(1.02);
+}
+.card p{
+    font-weight: bold;
+    font-family: default;
+}
+footer {
+    margin-top: 50px;
+    color: #1d1919; 
+    padding:rgb(36, 34, 34)px 0; 
+}
+
+footer h5 {
+    color: #0d0101; 
+    font-family:"Marcellus", serif;
+    font-weight: bolder;
+}
+
+footer p {
+    margin-bottom: 10px; 
+    font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer a{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer ul {
+    padding: 0;
+    list-style: none; }
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #1c0404;
+    text-decoration: none; 
+    font-family: default;
+}
+
+footer ul li a:hover {
+    color: rgb(223, 85, 10);
+    text-decoration: double;
+}
+
+footer hr {
+    border-color: #777;
+}
+@media screen and (max-width: 810px) {
+    header{
+        display: grid;
+        grid-template-rows: 62px;
+        grid-template-columns: 100%;
+        font-size: medium;
+    }
+    .options{
+        display: grid;
+        grid-template-rows: 62px;
+        grid-template-columns:15% 15% 15% 20% 15%;
+        font-size: medium;
+        justify-content: space-evenly;
+    }
+    .b{
+        margin-bottom: 35%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .b{
+        margin-bottom: 35%;
+    }
+}
