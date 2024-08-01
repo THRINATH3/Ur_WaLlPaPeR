@@ -50,6 +50,10 @@ h3,h2{
     font-weight: 500;
     font-style: normal;
 }
+.aimg{
+    width:50%;
+    height:500px; 
+}
 .card{
     margin-left: 30%; margin-right: 30%;
 }
@@ -121,7 +125,7 @@ footer hr {
     }
     .aimg{
         height: 500px;
-        margin-right: 1%;
+        width: 80%;
     }
     .main p{
         font-weight: 400;
@@ -130,11 +134,13 @@ footer hr {
 }
 @media screen and (max-width: 500px) {
     .aimg{
+        width: 100%;
         height: 400px;
     }
 }
 @media screen and (max-width: 400px) {
     .aimg{
+        width: 100%;
         height: 300px;
     }
 }
